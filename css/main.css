@@ -1,0 +1,182 @@
+* {
+  box-sizing: border-box;
+}
+
+.header {
+  width: 1100px;
+  margin: 0 auto;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.navigation {
+  list-style-type: none;
+  text-transform: capitalize;
+}
+
+.navigation>p {
+  display: inline-block;
+}
+
+.navigation  a:hover {
+  color: rgb(255, 0, 0);
+  text-decoration: underline;
+}
+
+.button-primary {
+  color: rgb(88, 146, 233);
+  text-decoration: none;
+  padding-right: 20px;
+}
+
+.hero {
+  background-color: rgb(88, 146, 233);
+  color: white;
+  text-align: center;
+  padding: 30px;
+}
+
+.description {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.about_us-title {
+  background-color: rgb(192, 215, 250);
+  color: rgb(56, 133, 250);
+  padding: 15px;
+}
+
+.portfolio-title {
+  background-color: rgb(192, 215, 250);
+  color: rgb(56, 133, 250);
+  padding: 15px;
+}
+
+.grid {
+  font-size: 0;
+  width: 840px;
+}
+
+.grid>.grid-item {
+  font-size: 16px;
+  display: inline-block;
+  width: 25%;
+}
+
+.card {
+  width: 100%;
+  padding-top: 15px;
+}
+
+.card .card-image_inl img {
+  width: 100%;
+  height: auto;
+  padding-bottom: 15px;
+  padding-right: 40px;
+}
+
+.button {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+.card-body {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+.card-body a:hover {
+  color: rgb(255, 0, 0);
+  text-decoration: underline;
+}
+
+
+.block {
+  width: 840px;
+  height: 135px;
+}
+
+.float1 {
+  float: left;
+  width: 210px;
+  height: 128px;
+  padding-bottom: 150px;
+  line-height: 40px;
+  padding-top: 20px;
+} 
+
+.img {
+  float: left;
+  width: 210px;
+  height: 108px;
+  padding-right: 40px;
+} 
+
+.card-body_fl a {
+  clear: right;
+  padding-right: 82px;
+}
+
+.card-body_fl a:hover {
+  color: rgb(255, 0, 0);
+  text-decoration: underline;
+}
+
+.card-body_fl {
+  width: 840px;
+  padding-bottom: 35px;
+}
+
+
+
+.table-main1 {
+  font-family: sans-serif;
+  width: 800px;
+}
+
+.text-left {
+  background-color: rgb(192, 215, 250);
+  color: rgb(56, 133, 250);
+  padding: 15px;
+  text-align: left;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.card-image {
+  width: 205px;
+  height: 150px;
+  padding-bottom: 15px;
+  padding-right: 40px;
+  padding-top: 30px;
+}
+
+td>a:hover {
+  color: rgb(255, 0, 0);
+  text-decoration: underline;
+}
+
+.table-main {
+  clear: both;
+}
+
+.button1 {
+  padding: 15px 0;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+.button1:hover {
+  color: rgb(255, 0, 0);
+  text-decoration: underline;
+}
